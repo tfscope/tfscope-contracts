@@ -1,6 +1,6 @@
 {
-  "title": "ModulePath",
-  "path": "act/modules/{module_id}/{version}/{file}.tf",
-  "module_id": "^[a-z][a-z0-9-]+$",
-  "version_pattern": "^(v\\d+|v\\d+-sample|last)$"
+  "title": "Path",
+  "path": "{domain}/{type}/{name}/{version}/{file}",
+  "name": "^[a-z][a-z0-9-]+$",
+  "version": "^(v\\d+|v\\d+-sample|last)$"
 }
